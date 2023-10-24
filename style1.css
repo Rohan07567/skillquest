@@ -1,0 +1,384 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Euclid Circular A;
+    src: url(EuclidCircularA-Regular.ttf);
+    /* src: url(EuclidCircularA-Bold.ttf);
+    src: url(EuclidCircularA-Medium.ttf);
+    src: url(EuclidCircularA-Semibold.ttf); */
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+    font-family: 'Euclid Circular A';
+    background-color: #faf7f7f6;
+}
+
+.main {
+
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    padding: 0 12vw;
+    /* margin-top: 2vh; */
+    justify-content: space-between;
+    background-color: #fff;
+    height: 10vh;
+    position: relative;
+
+}
+
+.right img {
+
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.right {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.left {
+
+    display: flex;
+    gap: 20px;
+    margin-right: 2.3vw;
+
+}
+
+.left a {
+
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+
+}
+
+.left a:hover {
+
+    border-bottom: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+.btn {
+
+    height: 4.6vh;
+    width: 10vw;
+    text-transform: uppercase;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4b857;
+    background-image: url(https://th.bing.com/th/id/R.832e187d328e4990fc5bcccfe25be8b9?rik=twxR24Io%2foCqrw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fo49OKwz.jpg&ehk=D%2fGxL5%2f00lVYxkrV3Pzr6XBkHtqW3X71u0Ial53Aadg%3d&risl=&pid=ImgRaw&r=0);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Euclid Circular A';
+
+}
+
+.btn a {
+
+
+    text-decoration: none;
+    color: #000;
+}
+
+.canvas1 {
+
+    background-image: url(https://th.bing.com/th/id/R.832e187d328e4990fc5bcccfe25be8b9?rik=twxR24Io/oCqrw&riu=http://wallpapercave.com/wp/o49OKwz.jpg&ehk=D/GxL5/00lVYxkrV3Pzr6XBkHtqW3X71u0Ial53Aadg=&risl=&pid=ImgRaw&r=0);
+    height: 100%;
+    margin: 30px 3vw;
+    background-color: blueviolet;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+
+.text {
+
+    padding: 27vh 5.5vw;
+    /* font-size: 29px; */
+    letter-spacing: 1px;
+
+
+}
+
+.text h1 {
+
+    font-size: 67px;
+}
+
+.text h1 span {
+
+    font-size: 45px;
+}
+
+.text p {
+
+    font-size: 30px;
+}
+
+
+.text .btn-1 {
+
+    width: 13vw;
+    height: 4.7vh;
+    border-radius: 20px;
+    font-family: 'Euclid Circular A';
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+
+
+}
+
+.text .btn-1:hover {
+
+    background-color: #000;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.text .btn-black {
+
+    background-color: #000;
+    color: #fff;
+
+}
+
+.text .btn-black:hover {
+    background-color: #dadada;
+    color: #000;
+    transition: all ease 0.5s;
+
+}
+
+
+.swiper {
+    width: 80%;
+    height: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+    margin-top: 19vh;
+
+}
+
+.swiper-slide {
+    border-radius: 20px;
+    /* text-align: center; */
+    font-size: 18px;
+    background: #b85f5f00;
+    height: calc((100% - 30px) / 2) !important;
+
+
+    /* Center slide text vertically */
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.swiper-slide:hover {
+
+    cursor: pointer;
+}
+
+.swiper-slide img {
+    height: 90px;
+
+}
+
+.canvas-2 {
+
+    background-image: url(https://th.bing.com/th/id/R.832e187d328e4990fc5bcccfe25be8b9?rik=twxR24Io%2foCqrw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fo49OKwz.jpg&ehk=D%2fGxL5%2f00lVYxkrV3Pzr6XBkHtqW3X71u0Ial53Aadg%3d&risl=&pid=ImgRaw&r=0);
+    height: 50%;
+    margin: 0px 3vw;
+    margin-top: 70px;
+    /* background-color: blueviolet; */
+    border-radius: 20px;
+    z-index: 0;
+}
+
+
+
+.canvas-2 h1 {
+
+    padding-top: 110px;
+    font-size: 60px;
+    padding-left: 10vw;
+
+}
+
+.canvas-2 p {
+
+    padding-left: 10vw;
+    font-size: 22.5px;
+}
+
+
+.page3 {
+
+    display: flex;
+    height: 100vh;
+    margin: 7vh;
+    border-radius: 15px;
+    margin-top: 20vh;
+
+
+
+}
+
+.page3 #left {
+
+
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.page3 #right {
+
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+#right img {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.page3 #left {
+
+    padding-top: 10vh;
+    padding-right: 1vw;
+}
+
+.page3 #left h1 {
+
+    padding-bottom: 10vh;
+}
+
+.page3 #left p {
+
+    padding-bottom: 5vh;
+}
+
+
+.btn-2 {
+
+    width: 10vw;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'matter light';
+    font-size: 15.6px;
+
+}
+
+.bttn {
+
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-2:hover {
+
+    border-bottom: 3px solid black;
+}
+
+
+@media (min-width: 1500px) {
+
+    .canvas1 {
+
+        background-image: url(https://static.vecteezy.com/system/resources/previews/000/261/765/original/bright-yellow-watercolor-texture-background-vector.jpg);
+    }
+
+    .canvas-2 {
+
+        background-image: url(https://static.vecteezy.com/system/resources/previews/000/261/765/original/bright-yellow-watercolor-texture-background-vector.jpg);
+    }
+
+}
+
+@media (max-width: 430px) {
+    .canvas1 .text h1 {
+        /* padding: 10vw; */
+        font-size: 8vw;
+    }
+
+    .canvas1 .text p {
+        font-size: 5vw;
+    }
+
+    .canvas1 .text span {
+        font-size: 8vw;
+    }
+
+    .canvas1 .text .btn-black {
+        width: 30vw;
+        margin-top: 3vh;
+    }
+
+    .canvas1 .text .btn-1 {
+        width: 35vw;
+    }
+
+    .right h1 {
+        font-size: 4.5vw;
+    }
+
+    .right {
+        margin-left: -8vw;
+    }
+
+    .left a {
+        display: none;
+    }
+
+    .btn {
+        width: 22vw;
+
+    }
+
+    .canvas-2 h1{
+        font-size: 9vw;
+    }
+    .canvas-2 p{
+        font-size: 5.7vw;
+    }
+    #right{
+        display: none;
+    }
+    .page3{
+        margin-top: -2vh;
+    }
+    .btn-2{
+        width: 18vw;
+    }
+
+}

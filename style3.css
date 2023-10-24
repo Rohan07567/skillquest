@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Euclid Circular A;
+    src: url(EuclidCircularA-Regular.ttf);
+    /* src: url(EuclidCircularA-Bold.ttf);
+    src: url(EuclidCircularA-Medium.ttf);
+    src: url(EuclidCircularA-Semibold.ttf); */
+  }
+
+body,
+html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Euclid Circular A';
+    background-color: #faf7f7f6;
+    scroll-behavior: smooth;
+}
+nav {
+
+    display: flex;
+    align-items: center;
+    padding: 0 12vw;
+    /* margin-top: 2vh; */
+    justify-content: space-between;
+    background-color: #fff;
+    height: 10vh;
+    position: relative;
+
+}
+
+.right img {
+
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.right {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.left {
+
+    display: flex;
+    gap: 20px;
+    margin-right: 2.3vw;
+
+}
+
+.left a {
+
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+
+}
+
+.left a:hover {
+
+    border-bottom: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+.btn {
+
+    height: 4.6vh;
+    width: 10vw;
+    text-transform: uppercase;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    background-color: #f4b857;
+    background-image: url(https://th.bing.com/th/id/R.832e187d328e4990fc5bcccfe25be8b9?rik=twxR24Io%2FoCqrw&riu=http%3A%2F%2Fwallpapercave.com%2Fwp%2Fo49OKwz.jpg&ehk=D%2FGxL5%2F00lVYxkrV3Pzr6XBkHtqW3X71u0Ial53Aadg%3D&risl=&pid=ImgRaw&r=0);
+    cursor: pointer;
+
+}
+
+.btn-1 {
+
+    height: 5vh;
+    width: 7vw;
+    border-radius: 13px;
+    border: none;
+    font-family: 'Euclid Circular A';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.canvas1{
+
+    height: 35.9%;
+    width: 90%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 5vw;
+    margin-top: 6vh;
+    background-image: url(https://www.rxwallpaper.site/wp-content/uploads/fly-and-spin-through-space-more-stars-and-more-speed-less-clouds.png);
+    
+}
+
+.canvas1 h1{
+
+    padding-top: 10vh;
+    font-size: 4.5vw;
+    padding-left: 2vw;
+    color: #fff;
+}
+
+.canvas1 p{
+
+    padding-left: 2.4vw;
+    color: #fff;
+    font-size: 1vw;
+}
+
+
+
+
+form{
+    background-color: rgba(128, 128, 128, 0.473);
+    height: 65vh;
+    width: 42vw;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.main{
+
+    display: flex;
+    height: 70%;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+  
+
+}
+.left1{
+    background-color: #e2c94a;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    
+}
+
+
+.main .right{
+    background-color: rgba(0, 0, 255, 0);
+    height: 100%;
+    width: 50%;
+}
+
+.text{
+    width: 95%;
+    padding: 15px;
+    background-color: rgb(245, 245, 220);
+    border-radius: 20px;
+    border: none;
+}
+
+
+.login{
+    padding: 5px;
+    width: 7vw;
+    height: 3vh;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+}
+.login:hover{
+    background-color: rgb(245, 220, 108);
+    border-bottom: 2px solid black;
+}
+iframe{
+    border-radius: 0 20px 20px 0;
+}
+
+@media (min-width: 1500px){
+    .left1{
+        background-color: #e2c94a;
+    }
+
+    
+}
+
